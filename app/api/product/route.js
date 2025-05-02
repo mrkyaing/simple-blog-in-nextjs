@@ -1,6 +1,6 @@
-import { NextResponse } from 'next/server';
 import path from 'path';
 import { promises as fs } from 'fs';
+import { NextResponse } from 'next/server';
 
 export async function GET() {
     try {
@@ -8,7 +8,6 @@ export async function GET() {
         const filePath = path.join(process.cwd(), '/data/product.json');
         const data = await fs.readFile(filePath, 'utf8');
         const products = JSON.parse(data);
-
         return NextResponse.json(products);
     } catch (error) {
         console.error('Error reading products.json:', error);

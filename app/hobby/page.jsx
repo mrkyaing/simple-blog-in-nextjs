@@ -6,6 +6,7 @@ export default function HobbyPage() {
                 <li>Coding</li>
                 <li>Reading</li>
                 <li>Playing Guitar</li>
+                <li>Listening the Music</li>
             </ul>
         </div>
     )

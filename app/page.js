@@ -1,5 +1,5 @@
 // app/page.jsx
-export default function LandingPage() {
+export default function LandingPage() {//localhost:3000
   return (
     <div>
       <h2 className="text-2xl font-semibold mb-2">Hello!</h2>

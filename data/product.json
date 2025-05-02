@@ -12,5 +12,18 @@
       "unitPrice": 15.49,
       "category": "Category 2",
       "stockUnitCode": "B002"
+    },
+    {
+      "id": 3,
+      "productName": "Product C",
+      "unitPrice": 18,
+      "category": "Category 3",
+      "stockUnitCode": "C001",
+      "supplier":{
+        "id": 1,
+        "name": "Supplier A",
+        "contactName": "John Doe",
+        "contactEmail": "jone@yahoo.com"
+      }
     }
   ]
